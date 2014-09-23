@@ -16,6 +16,13 @@
 # Fortran module files
 *.mod
 
+*.log
+*.tlog
+*.pdb
+*.vcxproj
+*.idb
+*.filters
+
 # Compiled Static libraries
 *.lai
 *.la
