@@ -29,7 +29,7 @@ public:
 class Solution {
 public:
     struct node {
-        int val, count;
+        int val, count; // number of node in the left sub-tree
         node *left, *right;
         node(int val) : val(val), count(0), left(NULL), right(NULL) {
 
